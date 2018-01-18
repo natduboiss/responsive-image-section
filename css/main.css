@@ -74,6 +74,7 @@ div a {
     position: absolute;
     top: 1rem;
     margin-right: 20rem;
+    margin-left: .25rem;
   }
 
   section {
@@ -83,12 +84,14 @@ div a {
   .p1 {
     top: 7.5rem;
     position: absolute;
+    margin-left: .25rem;
   }
 
   .p2 {
     position: absolute;
     top: 9rem;
     margin-right: 18rem;
+    margin-left: .25rem;
   }
 
   .img-flex {
@@ -97,12 +100,14 @@ div a {
     position: absolute;
     padding-left: 17rem;
     margin-top: 0;
-    top: 4.25rem;
+    top: 4rem;
   }
 
   .btn {
     position: absolute;
     top: 17.5rem;
+    text-align: center;
+    margin-left: .25;
   }
 }
 
@@ -111,5 +116,22 @@ div a {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  h1 {
+    top: 3rem;
+  }
+
+  .p2 {
+    margin-right: 27rem;
+  }
+
+  .img-flex {
+    top: 2rem;
+    padding-left: 24rem;
+  }
+
+  .btn {
+    top: 17rem;
   }
 }
