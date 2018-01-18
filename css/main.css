@@ -39,11 +39,11 @@ h1 {
   margin-bottom: 2rem;
 }
 
-div a {
+a {
   text-decoration: none;
   color: #fff;
   font-family: sans-serif;
-  padding: .5em .75em;
+  padding: .6em .75em;
   border-radius: 4px;
   background-color: #555;
   margin-left: 1rem;
@@ -123,7 +123,7 @@ div a {
   }
 
   .p2 {
-    margin-right: 27rem;
+    margin-right: 26rem;
   }
 
   .img-flex {
@@ -134,4 +134,44 @@ div a {
   .btn {
     top: 17rem;
   }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  body {
+    margin-bottom: 25rem;
+  }
+
+  h1 {
+    margin-left: 9.5rem;
+    top: 3.7rem;
+  }
+
+  .p1 {
+    margin-left: 9.5rem;
+    top: 8.25rem;
+  }
+
+  .p2 {
+    margin-left: 9.5rem;
+    margin-right: 35rem;
+    top: 9.75rem;
+  }
+
+  .img-flex {
+    padding-left: 35rem;
+    padding-right: 9.5rem;
+    width: 100%;
+  }
+
+  .btn {
+    margin-left: 9.5rem;
+    top: 16.25rem;
+    padding-bottom: 3rem;
+  }
+
 }
