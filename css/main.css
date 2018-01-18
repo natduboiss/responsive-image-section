@@ -22,7 +22,7 @@ h1 {
   padding-right: 6rem;
 }
 
-p {
+.p1 {
   padding-left: 1rem;
   margin: 0;
   color: #000;
@@ -30,6 +30,27 @@ p {
   padding-right: 1rem;
 }
 
-div {
+.p2 {
+  padding-left: 1rem;
+  margin: 0;
+  color: #000;
+  font-family: sans-serif;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+}
 
+div a {
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  padding: .5em .75em;
+  border-radius: 4px;
+  background-color: #555;
+  margin-left: 1rem;
+}
+
+.img-flex {
+  max-width: none;
+  width: 100%;
+  margin-top: 1.5rem;
 }
