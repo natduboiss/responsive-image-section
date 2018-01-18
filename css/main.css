@@ -54,3 +54,62 @@ div a {
   width: 100%;
   margin-top: 1.5rem;
 }
+
+@media only screen and (min-width: 25em) {
+
+  h1 {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1 {
+    text-align: left;
+    position: absolute;
+    top: 1rem;
+    margin-right: 20rem;
+  }
+
+  section {
+    position: relative;
+  }
+
+  .p1 {
+    top: 7.5rem;
+    position: absolute;
+  }
+
+  .p2 {
+    position: absolute;
+    top: 9rem;
+    margin-right: 18rem;
+  }
+
+  .img-flex {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 17rem;
+    margin-top: 0;
+    top: 4.25rem;
+  }
+
+  .btn {
+    position: absolute;
+    top: 17.5rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+}
